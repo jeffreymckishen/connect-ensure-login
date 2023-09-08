@@ -1,0 +1,32 @@
+{
+  "name": "connect-ensure-login",
+  "version": "0.1.3",
+  "description": "Login session ensuring middleware for Connect.",
+  "keywords": ["connect", "express", "auth", "authn", "authentication", "login", "session", "passport"],
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeffreymckishen/connect-ensure-login.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jeffreymckishen/connect-ensure-login.git"
+  },
+  "author": {
+    "name": "jeffreymckishen",
+    "email": "jeffreymckishen@gmail.com",
+  },
+  "licenses": [ {
+    "type": "MIT",
+    "url": "http://www.opensource.org/licenses/MIT" 
+  } ],
+  "main": "./lib/index.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "vows": "0.6.x"
+  },
+  "scripts": {
+    "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
+  },
+  "engines": { "node": ">= 0.4.0" }
+}
